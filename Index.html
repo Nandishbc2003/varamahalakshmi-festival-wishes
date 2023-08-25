@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>varmahalakshmi festival</title>
+</head>
+<body>
+<style>
+
+  .flower-container {
+    text-align: center;
+    margin: 20px;
+  }
+
+  .flower-thumbnail {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .full-flower {
+    display: none;
+    max-width: 100%;
+  }
+</style><center><header class="header">
+  <h1>Varma Mahalakskmi </h1><code>°°°°°°°°°°°°°°°°°°°°°°°°</code>
+</header>
+
+<div class="flower-container">
+  <img src="/storage/emulated/0/Download/download (1) (9).jpeg" alt="Flower Thumbnail" class="flower-thumbnail">
+  <img src="/storage/emulated/0/Download/download (1) (9).jpeg" alt="Full Flower" class="full-flower hidden">
+</div>
+<script>
+  // JavaScript for Flower Animation
+  const flowerThumbnail = document.querySelector('.flower-thumbnail');
+  const fullFlower = document.querySelector('.full-flower');
+
+  flowerThumbnail.addEventListener('click', function() {
+    flowerThumbnail.style.display = 'none';
+    fullFlower.style.display = 'block';
+  });
+</script><br>
+
+<style>
+  /* Your existing styles */
+
+  /* Image Gallery Styles */
+  .image-gallery-container {
+    display: flex;
+    overflow: hidden;
+    width: 60%;
+    border-radius: 15px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2),
+                -6px -6px 10px rgba(255, 255, 255, 0.7);
+  }
+
+  .image-gallery {
+    display: flex;
+    width: 700%; /* Total width of all images */
+    animation: moveGallery 30s linear infinite;
+  }
+
+  .image-gallery img {
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+
+  .image-gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3),
+                -8px -8px 15px rgba(255, 255, 255, 0.5);
+  }
+
+  /* Animation Styles */
+  @keyframes moveLeftToRight {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes moveRightToLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  @keyframes moveGallery {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-100%);
+    }
+    75% {
+      transform: translateX(-100%);
+    }
+  }
+</style>
+<!-- Your content goes here -->
+<div class="image-gallery-container">
+  <div class="image-gallery">
+    <img src="/storage/emulated/0/Download/download (1) (9).jpeg" alt="Image 1">
+    <img src="/storage/emulated/0/Download/download (1) (10).jpeg" alt="Image 2">
+    <img src="/storage/emulated/0/Download/download (1) (11).jpeg" alt="Image 3">
+    <img src="/storage/emulated/0/Download/download (1) (12).jpeg" alt="Image 4">
+    <img src="/storage/emulated/0/Download/images (1) (4).jpeg" alt="Image 5">
+    <img src="/storage/emulated/0/Download/images (1) (5).jpeg" alt="Image 6">
+    <img src="/storage/emulated/0/Download/images (1) (7).jpeg" alt="Image 7">
+  </div>
+</div>
+<!-- Add other sections and animations as needed -->
+
+
+
+
+<br><br><br><br><br>
+<style>
+  
+  #dynamic-box {
+    width: 300px; /* Initial width */
+    height: 200px; /* Initial height */
+    border: 5px solid #f8c03e; /* Strong border */
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+#dynamic-bo{
+    width: 300px; /* Initial width */
+    height: 450px; /* Initial height */
+    border: 5px solid #f8c03e; /* Strong border */
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+
+  /* Media Query for Mobile Devices */
+  @media (max-width: 767px) {
+    #dynamic-box {
+      width: 90%; /* Adjust width for mobile */
+      height: 300px; /* Allow height to adjust for mobile content */
+    }
+  }
+</style>
+</head>
+<body>
+<!-- Your content goes here -->
+<div id="dynamic-bo">
+<style>
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+
+  /* Callout Box Styles */
+  .callout-box {
+    display: none;
+    text-align: center;
+    background-color: #f8c03e;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: fit-content;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .callout-text {
+    font-size: 24px;
+    color: #fff;
+  }
+</style>
+</head>
+<body>
+<header class="header">
+  <h1 class="animate-header">Varmahalakshmi Festival</h1>
+</header><br><br><br><br>
+<div class="popup-container" id="popup-container">
+  <div class="popup" id="popup">
+    <h2>Enter Family Members' Names</h2>
+    <input type="text" placeholder="Family Member 1">
+    <input type="text" placeholder="Family Member 2">
+    <input type="text" placeholder="Family Member 3">
+    <input type="text" placeholder="Family Member 4">
+    <input type="text" placeholder="Family Member 5">
+    <!-- Add more input fields for other family members -->
+    <button id="submit-names">Submit</button>
+  </div>
+</div>
+
+<div class="callout-box" id="callout-box">
+  <p class="callout-text">Happy Varma Halaskmi Festival</p>
+</div>
+
+<script>
+  // JavaScript for Popup and Callout Box
+  const popupContainer = document.getElementById('popup-container');
+  const popup = document.getElementById('popup');
+  const calloutBox = document.getElementById('callout-box');
+  const submitNamesBtn = document.getElementById('submit-names');
+
+  submitNamesBtn.addEventListener('click', function() {
+    const names = Array.from(document.querySelectorAll('.popup input')).map(input => input.value).join(', ');
+    const calloutText = `Happy Varma Halaskmi Festival to  ${names}! all of you people.......`;
+    popupContainer.style.display = 'none';
+    calloutBox.style.display = 'block';
+    calloutBox.querySelector('.callout-text').textContent = calloutText;
+  });
+</script>
+ </div>
+<style>
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+
+  /* Blessing Section Styles */
+  .blessing-section {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+
+  .blessing-input {
+    margin: 10px 0;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .quote-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+  .quote-text {
+    font-size: 18px;
+    color: #333;
+  }
+</style>
+</head>
+<body><br><br><br>
+<header class="header">
+  <h1 class="animate-header">Varma Halaskmi Festival</h1>
+</header>
+
+<div class="blessing-section">
+  <h2>Share Your details </h2>
+  <input type="text" placeholder="Your Name" class="blessing-input" id="blessing-name">
+  <input type="text" placeholder="Your Age" class="blessing-input" id="blessing-age">
+  <input type="text" placeholder="Your Goal" class="blessing-input" id="blessing-goal">
+  <button id="generate-quote">Get blessings</button>
+  <div class="quote-container" id="quote-container">
+    <p class="quote-text" id="quote-text">"Where karma is there ,lakshmi presence will be dynamically added to life"</p>
+  </div>
+</div>
+<script>
+  // JavaScript for Blessing Section
+  const generateQuoteBtn = document.getElementById('generate-quote');
+  const quoteContainer = document.getElementById('quote-container');
+  const quoteText = document.getElementById('quote-text');
+
+  generateQuoteBtn.addEventListener('click', function() {
+    const name = document.getElementById('blessing-name').value;
+    const age = document.getElementById('blessing-age').value;
+    const goal = document.getElementById('blessing-goal').value;
+    const quote = `"ALL THE BEST MR/MRS  ${name}, aged ${age}, FOR  ACHIEVING UR GOAL : ${goal}" MAY ALL THE DELIGHTS ENVISONED IN UR UPCOMING LIFE WITH PROSPERITY ,HEALTH AND EDUCATION .`;
+    quoteText.textContent = quote;
+    quoteContainer.style.display = 'block';
+  });
+</script>
+<style>
+   
+  .currency-section {
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .currency-circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #f8c03e;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+
+  .currency-note {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .god-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .done-box {
+    width: 80px;
+    height: 80px;
+    background-color: #38a82c;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: visibility 0s, opacity 0.5s, transform 0.5s;
+  }
+
+  .work-hard {
+    font-size: 18px;
+    margin-top: 20px;
+    display: none;
+  }
+
+  .note-position-1 {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  .note-position-2 {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  .box {
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: #f8c03e;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: openBox 0.5s forwards;
+  }
+
+  /* Animation Keyframes */
+  @keyframes openBox {
+    0% {
+      width: 0;
+      height: 0;
+    }
+    100% {
+      width: 100px;
+      height: 100px;
+    }
+  }
+</style>
+</head>
+<div id="dynamic-box">
+
+<div class="currency-section">
+  <h2>Currency Notes</h2>
+  <div class="currency-circle" id="currency-circle">
+    <div class="currency-note note-position-1">₹2000</div>
+    <div class="currency-note note-position-2">₹500</div>
+    <div class="god-name">God's Name</div>
+  </div>
+  <div class="done-box" id="done-box">Be innovative </div>
+  <p class="work-hard" id="work-hard">Work Hard with strengths ,powers and consistency everything will come automatically .</p>
+  <div class="box" id="box"></div>
+</div>
+
+<script>
+  // JavaScript for Click and Animation
+  const currencyCircle = document.getElementById('currency-circle');
+  const doneBox = document.getElementById('done-box');
+  const workHard = document.getElementById('work-hard');
+  const box = document.getElementById('box');
+
+  currencyCircle.addEventListener('click', function() {
+    doneBox.style.visibility = 'visible';
+    doneBox.style.opacity = '1';
+    doneBox.style.transform = 'translateY(0)';
+    workHard.style.display = 'block';
+    currencyCircle.style.display = 'none';
+    box.style.display = 'block';
+    box.style.animation = 'none'; // Reset animation
+    setTimeout(() => {
+      box.style.animation = 'openBox 0.5s forwards'; // Start animation
+    }, 10);
+  });
+</script></div>
+<style>
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+
+  /* Neumorphism Box Styles */
+  .neumorphism-box {
+    width: 80%;
+    max-width: 600px;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2),
+                -8px -8px 16px rgba(255, 255, 255, 0.5);
+    margin: 40px auto;
+    text-align: center;
+    animation: fadeIn 1s forwards;
+  }
+
+  .neumorphism-box h2 {
+    font-size: 28px;
+    color: black;
+  }
+
+  .neumorphism-box p {
+    font-size: 18px;
+    color: orange;
+    margin-top: 10px;
+  }
+
+  /* Animation Keyframes */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+</head>
+<body>
+<div class="neumorphism-box">
+  <h2>Varmahalakshmi Festival<br><code>----******------</h2>
+  <p>Celebrating the auspicious Varmahalakshmi Festival. May blessings and prosperity shine upon you and your family. Let's the joy come together and enjoy the festive vibes!</p>
+</div>
+<style type="text/css">/* Animation 1: Bouncing */
+.animate-header {
+  animation: bounce 1s infinite;
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-60px); }
+}
+
+/* Animation 2: Fading In */
+.animate-header {
+  animation: fadeIn 1s ease-in-out;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; transform: scale(0.5); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+/* Add more animations here */
+
+/* Animation 20: Rotating and Scaling */
+.animate-header {
+  animation: rotateScale 2s infinite;
+}
+@keyframes rotateScale {
+  0% { transform: rotate(0) scale(1); }
+  50% { transform: rotate(180deg) scale(1.2); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+
+/* Animation 1: Bouncing */
+#header-animation-1 {
+  animation: bounce 1s infinite;
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Animation 2: Rotating */
+#header-animation-2 {
+  animation: rotate 2s infinite;
+}
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Animation 3: Scaling */
+#header-animation-3 {
+  animation: scale 1s infinite alternate;
+}
+@keyframes scale {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+/* Animation 4: Glowing */
+#header-animation-4 {
+  animation: glow 2s infinite alternate;
+}
+@keyframes glow {
+  0%, 100% { text-shadow: 0 0 10px #f8c03e; }
+  50% { text-shadow: 0 0 20px red; }
+}
+
+/* Animation 5: Fading In */
+#header-animation-5 {
+  animation: fadeIn 1s ease-in-out;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; transform: scale(0.5); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+
+</style><header class="header animate-header"></header>
+
+<div id="dynamic-box">
+<div class="header">
+  <h1 id="header-animation-1">Granter of booms</h1>
+</div>
+<div class="header">
+  <h1 id="header-animation-2">Auspicious one</h1>
+</div>
+<div class="header">
+  <h1 id="header-animation-3">Admist god</h1>
+</div>
+<div class="header">
+  <h1 id="header-animation-4">God of wealth</h1>
+<link rel="stylesheet" href="styles.css">
+<style>
+  /* Your existing styles */
+
+  /* Emoji Styles */
+  .emoji-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    width: 100%; /* Adjust as needed */
+    animation: loopEmojis 5s linear infinite;
+  }
+
+  .emoji-container .emoji {
+    display: inline-block;
+    font-size: 24px;
+    padding: 0 10px;
+    white-space: nowrap;
+  }
+
+  @keyframes loopEmojis {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+</style>
+
+<!-- Your content goes here -->
+<div class="emoji-container">
+  <!-- Emojis will be dynamically generated here using JavaScript -->
+</div>
+<!-- Add more divs with animations here -->
+<script>
+  // JavaScript to dynamically generate emojis in a loop
+  const emojiContainer = document.querySelector('.emoji-container');
+  const emojis = ['💰', '💵', '🪙', '💲', '🤑']; // Add more emojis as needed
+
+  function generateRandomEmoji() {
+    return emojis[Math.floor(Math.random() * emojis.length)];
+  }
+
+  // Generate dynamic emojis
+  setInterval(function () {
+    const emojiElement = document.createElement('div');
+    emojiElement.classList.add('emoji');
+    emojiElement.textContent = generateRandomEmoji();
+    emojiContainer.appendChild(emojiElement);
+  }, 500); // Adjust the interval as needed
+</script>
+</div></div><div id="dynamic-box"><br><br><br><br>
+<p id="subtitle-animation-6">FINANCIAL MINISTER OF WORLD 🌎</p>
+<p id="subtitle-animation-7">FINANCIAL MINISTER OF WORLD 🌎</p>
+<p id="subtitle-animation-8">FINANCIAL MINISTER OF WORLD 🌎</p>
+<p id="subtitle-animation-9">FINANCIAL MINISTER OF WORLD 🌎</p>
+<p id="subtitle-animation-10">FINANCIAL MINISTER OF WORLD 🌎</p>
+<br><br><br><br></div>
+<style>
+  /* Your existing styles */
+
+  /* GIF Container Styles */
+  .gif-container {
+    text-align: center;
+  }
+
+  .gif {
+    cursor: pointer;
+  }
+
+  /* Content Styles */
+  .content {
+    display: none;
+    text-align: center;
+    padding: 20px;
+  }
+</style>
+
+<!-- Your content goes here -->
+
+<div class="gif-container">
+  <img src="/storage/emulated/0/Download/Animated-Maa-Lakshmi-Blessings-for-Diwali-Gif_04251019.gif" alt="Interactive GIF" class="gif" id="interactive-gif">
+  <div class="content" id="content">
+    <!-- Content to be displayed -->
+    <h2>DONT THINK MORE ......</h2>
+    <p>There is just one way to make sure mahalakshmi enters to everyone's home.<h3>PATIENCE,HARDWORK,CONSISTENCY </h3>will make us suceed ....</p>
+  </div>
+</div>
+
+<script>
+  // JavaScript to show content on GIF click
+  const gif = document.getElementById('interactive-gif');
+  const content = document.getElementById('content');
+
+  gif.addEventListener('click', function() {
+    content.style.display = 'block';
+  });
+</script>
+<br><br><br>
+
+<!-- Add more p elements with different IDs and animations here -->
+<style type="text/css">/* Animation 6: Scaling */
+#subtitle-animation-6 {
+  animation: scale 1s infinite alternate;
+}
+
+/* Animation 7: Bouncing */
+#subtitle-animation-7 {
+  animation: bounce 1s infinite;
+}
+
+/* Animation 8: Pulsating */
+#subtitle-animation-8 {
+  animation: pulse 2s infinite;
+}
+
+/* Animation 9: Blinking */
+#subtitle-animation-9 {
+  animation: blink 1s infinite;
+}
+
+/* Animation 10: Spinning */
+#subtitle-animation-10 {
+  animation: spin 2s linear infinite;
+}
+
+/* Add more animations here */
+
+@keyframes scale {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style></div>
+
+<br><br><br><br><br>
+<style>
+  /* Your existing styles */
+
+  /* Footer Styles */
+  .footer {
+    background-color: black;
+    color: green;
+    text-align: center;
+    padding: 10px;
+  }
+</style>
+</head>
+<body>
+<!-- Your content goes here -->
+
+<div class="footer">
+  Designed and Developed by
+  <br>
+  NANDISH BC
+  <br>
+  SOFTWARE DEVELOPER | TUTOR | CONSULTANT
+  <br>
+  Code Generated by ChatGPT
+</div>
+<br><br><br><br>
+
+   
+    <style>
+        /* Add styling to the GIF container */
+        .gif-container {
+            display: center;
+            
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+    </style>
+    <title>GIF Example</title>
+</head>
+<body>
+    <div class="gif-container">
+        <img id="gif" src="/storage/emulated/0/Download/durga-bhavani-lakshmi-devi.gif" alt="Animated GIF"><br>
+        <img id="gif" src=" /storage/emulated/0/Download/images (1) (9).jpeg" alt="Animated GIF">
+        <img id="gif" src="/storage/emulated/0/Download/goddess-lakshmi-gods.gif" alt="Animated GIF">
+        </div>
+        </div>
+    </div>
+    <script>
+        // Get the GIF element
+        const gif = document.getElementById('gif');
+
+        // Add event listener to start animation on click
+        gif.addEventListener('click', () => {
+            gif.classList.toggle('animate');
+        });
+    </script>
+</body>
+  </html>
